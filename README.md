@@ -10,3 +10,4 @@ Go to the example you want and run the code below
 - [Http Server (Basic)](https://github.com/ozerozdas/golang-learning/tree/main/HttpServerBasic)
 - [Http Server (Advanced)](https://github.com/ozerozdas/golang-learning/tree/main/HttpServerAdvanced)
 - [Http Router](https://github.com/ozerozdas/golang-learning/tree/main/HttpRouter)
+- [Restful API](https://github.com/ozerozdas/golang-learning/tree/main/RestfulAPI)
