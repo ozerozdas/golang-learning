@@ -94,6 +94,12 @@ func createNewArticle(w http.ResponseWriter, r *http.Request) {
 	json.Unmarshal(reqBody, &article)
 	Articles = append(Articles, article)
 
+	w.Header().Set("Access-Control-Allow-Headers", "*")
+	w.Header().Set("Access-Control-Allow-Origin", "*")
+	w.Header().Set("Access-Control-Allow-Methods", "POST")
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(http.StatusOK)
+
 	json.NewEncoder(w).Encode(article)
 }
 
@@ -114,7 +120,7 @@ func deleteArticle(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Access-Control-Allow-Headers", "*")
 	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Methods", "GET")
+	w.Header().Set("Access-Control-Allow-Methods", "DELETE")
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
 
