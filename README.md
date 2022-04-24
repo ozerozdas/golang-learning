@@ -15,5 +15,6 @@ or
 - [Http Server (Advanced)](https://github.com/ozerozdas/golang-learning/tree/main/HttpServerAdvanced)
 - [Http Router](https://github.com/ozerozdas/golang-learning/tree/main/HttpRouter)
 - [Restful API](https://github.com/ozerozdas/golang-learning/tree/main/RestfulAPI)
+- [Variable Test](https://github.com/ozerozdas/golang-learning/tree/main/VariableTest)
 
 <img src="https://github.com/ozerozdas/golang-learning/blob/main/go-lang.png?raw=true">
