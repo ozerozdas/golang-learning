@@ -11,3 +11,4 @@ or
 
 ## List
 - [Two Fer](https://github.com/ozerozdas/golang-learning/tree/main/Exercism.org/TwoFer)
+- [Hamming Distance](https://github.com/ozerozdas/golang-learning/tree/main/Exercism.org/Hamming)
