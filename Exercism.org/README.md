@@ -2,7 +2,7 @@
 
 Go to the example you want and run the code below
 ```
-    ./main
+    go build main.go && ./main
 ```
 or
 ```
