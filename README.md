@@ -1,5 +1,8 @@
 # Go Lang Learning Examples
 
+This repo has been prepared as a personal study for golang examples. You can use it to practice and study.
+I created some examples myself and compiled some from different sources.
+
 Go to the example you want and run the code below
 ```
     go build main.go && ./main
