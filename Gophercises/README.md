@@ -14,4 +14,4 @@ or
 ```
 
 ## List
-- [Quiz Game](https://github.com/ozerozdas/)
+- [Quiz Game](https://github.com/ozerozdas/golang-learning/tree/main/Gophercises/QuizGame)
